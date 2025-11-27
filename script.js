@@ -1,5 +1,7 @@
 
 const checkboxes = document.getElementById("divStyle");
-console.log(checkboxes);
+console.log(checkboxes); 
+
+/* axel */
 
 
