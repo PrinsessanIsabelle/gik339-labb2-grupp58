@@ -1,2 +1,3 @@
-const checkboxes = document.getElementsByTagName("checkbox")[0];
+const checkboxes = document.getElementById("divStyle");
 console.log(checkboxes);
+
