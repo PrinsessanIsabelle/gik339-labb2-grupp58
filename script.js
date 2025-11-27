@@ -1,4 +1,2 @@
-{
-  const checkboxes = document.getElementByID("divstyle");
-  console.log(checkboxes);
-}
+const checkboxes = document.getElementByID("divstyle");
+console.log(checkboxes);
