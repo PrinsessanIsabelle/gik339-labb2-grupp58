@@ -1,5 +1,5 @@
 /* hämtar elementet med hjäp av getElementById och sparar det i variabeln checkbox */
-const checkbox =  document.getElementById("divStyle");
+const checkbox = document.getElementById("divStyle");
 console.log(checkbox);
 
  /* hämtar elementet med hjäp av getElementsByClassName och sparar det i variabeln textfields */
@@ -8,11 +8,11 @@ console.log(textfields);
 
 /*  hämtar elementet med hjäp av querySelector och sparar det i variabeln button */
 const button = document.querySelector("button");
-console.log(button); 
+console.log(button);
 
 /*  hämtar elementet med hjäp av getElementsByClassName och sparar det i variabeln container */
 const container = document.getElementsByClassName("container")[0];
-console.log(container); 
+console.log(container);
 
 
  /* skapar en funktion som tar emot event */
