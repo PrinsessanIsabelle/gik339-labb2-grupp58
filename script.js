@@ -1,3 +1,9 @@
+document.body.style.backgroundImage = // Bakgrundsbild med moln
+  "url('https://png.pngtree.com/thumb_back/fh260/background/20250601/pngtree-seamless-pattern-of-fluffy-white-clouds-in-a-bright-blue-sky-image_17370889.jpg')";
+document.body.style.backgroundSize = "auto"; // ingen strech
+document.body.style.backgroundRepeat = "repeat"; // upprepning
+document.body.style.backgroundAttachment = "fixed"; // gör att molnen ligger stilla vid scroll
+
 /* hämtar elementet med hjäp av getElementById och sparar det i variabeln checkbox */
 const checkbox = document.getElementById("divStyle");
 console.log(checkbox);
