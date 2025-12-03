@@ -20,23 +20,23 @@ console.log(button);
 const container = document.getElementsByClassName("container")[0];
 console.log(container);
 
+/* Uppgift 5 */
 /* skapar en funktion som tar emot event */
 function userInput(e) {
   const name = e.target.name; // hämtar namnet på det element som triggat eventet och sparar det i variabeln name
-  console.log(name);
+  console.log(name); //loggar
 
   if (name === "content") {
     // kollar om namnet är lika med content
     container.innerHTML = e.target.value; // sätter innehållet i container och innerHTML till värdet av det element som triggat eventet
   }
 }
-checkbox.addEventListener("change", function (e) {
-  const bcColor = document.getElementById("color").value;
-  container.style.backgroundColor = bcColor;
-});
 
-textfields.forEach((field) => {
-  field.addEventListener("input", userInput);
+/* Uppgift 6 */
+checkbox.addEventListener("change", function (e) {
+  textfields.forEach((field) => {
+    field.addEventListener("input", userInput);
+  });
 });
 
 button.addEventListener("click", function (e) {
