@@ -38,10 +38,6 @@ checkbox.addEventListener("change", function (e) {
   container.style.backgroundColor = bcColor;
 });
 
-button.addEventListener("click", function (e) {
-  container.remove();
-});
-
 textfields.forEach((field) => {
   field.addEventListener("input", userInput);
 });
