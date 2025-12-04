@@ -4,7 +4,6 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     sans-serif;
 
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,7 +12,7 @@ body {
   position: relative;
 }
 
-
+/* "Kortet" bakom allt innehåll */
 body::before {
   content: "";
   position: fixed;
@@ -22,19 +21,17 @@ body::before {
   transform: translateX(-50%);
   width: 700px;
   max-width: 90vw;
-  height: 260px; 
+  height: 260px;
   background: rgba(255, 255, 255, 0.9);
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
   z-index: -1;
 }
 
-
 h1 {
   margin: 0 0 25px 0;
   text-align: center;
 }
-
 
 label {
   display: inline-block;
@@ -42,19 +39,16 @@ label {
   margin-bottom: 8px;
 }
 
-
 .textfield {
   width: 260px;
   padding: 4px 6px;
   margin-bottom: 8px;
 }
 
-
 .checkbox {
   margin-left: 8px;
   margin-right: 12px;
 }
-
 
 #addButton {
   margin-top: 10px;
@@ -71,7 +65,7 @@ label {
   max-width: 600px;
   border: 1px solid #ccc;
   padding: 6px;
-  background-color: #f7f7f7;
+  background-color: #ccc;
   min-height: 32px;
   box-sizing: border-box;
 }
